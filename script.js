@@ -25,7 +25,7 @@ function updateResult()
     }
 
 else{
-    document.getElementById("result").innerText="If you deposit "+"principal"+"\n at an interest rate of "+rate+"\n You will receive an amount of  "+ interest+"\n in the year "+year;
+    document.getElementById("result").innerText="If you deposit "+principal+"\n at an interest rate of "+rate+"\n You will receive an amount of  "+ interest+"\n in the year "+year;
 }
 document.getElementById("Ok").style.display="block";
 }
