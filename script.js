@@ -3,8 +3,11 @@ function compute()
     p = document.getElementById("principal").value;
     
 }
-     
 
+function func()
+{
+     document.getElementById("Clear").style.display="none";
+}
 
  function updateRate() 
 {
